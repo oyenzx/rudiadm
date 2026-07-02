@@ -1,0 +1,2 @@
+npm install
+npm install http-proxy-agent socks-proxy-agent
