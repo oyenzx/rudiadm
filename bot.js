@@ -272,7 +272,7 @@ if (!BOT_NAME && cfg.player?.name && cfg.player?.name !== 'IslandsBot') {
 const BOT_COLOR = arg('--color', cfg.player?.color || 'Blue');
 
 // ── Performance ──
-const ATK_INTERVAL = parseInt(arg('--speed', cfg.settings?.attackIntervalMs || 400));
+const ATK_INTERVAL = parseInt(arg('--speed', cfg.settings?.attackIntervalMs || 200));
 const ST_INTERVAL  = 100;
 const MAX_CHASE    = parseInt(arg('--chase', cfg.settings?.maxMobChaseDist  || 400));
 const FAST_MODE    = hasArg('--fast');
